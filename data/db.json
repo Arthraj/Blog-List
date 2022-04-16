@@ -1,0 +1,8 @@
+{
+  "blogs": [
+    { "title": "My first Blog!!", "age": "2", "game": "Cricket", "id": 1 },
+    { "title": "I went to Zoo", "age": "21", "game": "BasketBall", "id": 2 },
+    { "title": "My first Salary.", "age": "14", "game": "Pithu", "id": 3 },
+    { "title": "I love Earth", "age": "60", "game": "Hockey", "id": 4 }
+  ]
+}

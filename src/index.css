@@ -1,13 +1,92 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: "Beau Rivage", serif;
+  word-spacing: 5px;
+  align-items: center;
+  margin: auto;
+}
+.content{
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.container{
+  width: 100%;
+  max-width: 600px;
+}
+
+.bor{
+  border: 2px solid red;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar-head{
+  margin: 20px;
+  font-size: 50px;
+  border-bottom: 2px solid crimson;
+  color: crimson;
+  font-weight: 900;
+}
+
+.links{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.links a{
+  font-size: 40px;
+  text-decoration: none;
+  padding: 0 20px;
+  font-weight: 500;
+}
+
+.links a:hover{
+  color: crimson;
+}
+
+#box{
+  font-size: 40px;
+}
+.home{
+  /* margin: 0 20px; */
+}
+
+.blog-info{
+  margin: 0px 20px;
+  padding: 10px;
+  border-bottom: 1px solid #fafafa;
+}
+
+.blog-info:hover{
+  box-shadow: 1px 3px 5px rgba(0, 0, 0,0.3);
+}
+
+.blog-list h2{
+  color: crimson;
+  font-size: 50px;
+}
+
+.blog-info h2{
+  font-size: 35px;
+}
+.blog-info p{
+  font-size: 25px;
+  
+}
+
+#change{
+  width: 100%;
+  height: 150px;
+  background-color: red;
 }
