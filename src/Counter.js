@@ -22,7 +22,7 @@ const Count = () => {
     return ( 
         <div id="change" style={{backgroundColor:color}}>
             <button onClick={()=>handleColors()} >Change color</button>
-            <p>You have clicked {count} times</p>
+            <p className="para">You have clicked {count} times</p>
         </div>
      );
 }
