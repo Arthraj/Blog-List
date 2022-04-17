@@ -1,3 +1,6 @@
+Link to Project [https://blog-list.pages.dev/](https://blog-list.pages.dev/)
+Deployed on Cloudflare
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
